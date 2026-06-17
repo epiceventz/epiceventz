@@ -1,0 +1,43 @@
+<svg width="1180" height="420" viewBox="0 0 1180 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Epic Eventz Logo</title>
+  <desc id="desc">Epic Eventz metallic silver and purple logo with Born to Amaze tagline.</desc>
+  <defs>
+    <linearGradient id="silver" x1="0" x2="0" y1="40" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d9d9d9"/>
+      <stop offset="0.42" stop-color="#ffffff"/>
+      <stop offset="0.72" stop-color="#8f8f8f"/>
+      <stop offset="1" stop-color="#f6f6f6"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="240" x2="520" y1="115" y2="292" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7a20ff"/>
+      <stop offset="0.5" stop-color="#d235ff"/>
+      <stop offset="1" stop-color="#a116ff"/>
+    </linearGradient>
+    <linearGradient id="wordSilver" x1="580" x2="1030" y1="105" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ececec"/>
+      <stop offset="0.32" stop-color="#ffffff"/>
+      <stop offset="0.56" stop-color="#909090"/>
+      <stop offset="0.82" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#bdbdbd"/>
+    </linearGradient>
+    <filter id="shadow" x="-8%" y="-12%" width="116%" height="130%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#000000" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <path d="M74 82L214 151L197 185L137 156L137 202L244 246L228 280L105 229L74 82Z" fill="url(#silver)"/>
+    <path d="M500 82L360 168L343 209L471 156L471 202L335 246L319 281L500 218L531 82H500Z" fill="url(#silver)"/>
+    <path d="M219 139H426L355 229H436L414 267H184L256 177H203L219 139Z" fill="url(#purple)"/>
+    <ellipse cx="289" cy="327" rx="139" ry="17" fill="url(#purple)" opacity="0.96"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <text x="565" y="180" fill="url(#wordSilver)" font-family="Arial Black, Impact, sans-serif" font-size="96" font-weight="900" letter-spacing="8">EPIC</text>
+    <text x="565" y="263" fill="url(#wordSilver)" font-family="Arial Black, Impact, sans-serif" font-size="88" font-weight="900" letter-spacing="5">EVENT</text>
+    <path d="M1011 195H1127L1074 260H1138L1119 294H983L1037 229H995L1011 195Z" fill="url(#purple)"/>
+    <text x="678" y="335" fill="#f4f4f4" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="400" letter-spacing="12">BORN TO AMAZE</text>
+    <path d="M566 322H653" stroke="url(#purple)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1040 322H1140" stroke="url(#purple)" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>
